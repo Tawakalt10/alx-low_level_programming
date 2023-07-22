@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *main - Determine if a number is positvie, negative or zero.
- (*0 : is the number to be checked
- *Return : 0 on success
+ *positive_or_negative - Determine if a number is positvie, negative or zero.
+ * @i : is the number to be checked
+ *Return: 0 on success
  */
-void positive_or_negative(int i)
+int positive_or_negative(int i)
 {
 if (i < 0)
 {
@@ -15,7 +15,7 @@ else if (i > 0)
 printf("%d is %s\n", i, "positive");
 }
 else
+{
 printf("%d is %s\n", i, "zero");
-return;
-
+return (0);
 }
