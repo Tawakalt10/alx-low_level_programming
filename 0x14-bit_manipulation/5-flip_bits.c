@@ -1,4 +1,3 @@
-#fndef MAIN_H
 #include "main.h"
 
 /**
